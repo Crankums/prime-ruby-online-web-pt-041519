@@ -3,13 +3,13 @@ def prime?(num)
   if num <= 1
       return false
     end
-  
+
     (2...num).each do |integer|
       if (num % integer) == 0
         return false
       end
     end
-  
+
     true
   end
 #   if num>0 || num == 0 || num == 1
